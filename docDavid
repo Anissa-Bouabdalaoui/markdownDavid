@@ -1,0 +1,75 @@
+Site : Codepen
+
+Packages : Atom Beautify
+
+nom des balise : camelCase
+
+Structure html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>titre</title>
+</head>
+<body>
+</body>
+<footer>
+</footer>
+
+lien vers les style et js : <link rel="stylesheet" href="mon-site.fr/style.css" />
+<script src="mon-site.fr/script.js"></script>
+
+enlever la classe d'un lien -> a {text-decoration: none;}
+
+centrer une div - > margin:auto;
+
+UPDATE Plus de css dans l'html
+
+Plus de table/td - > div
+
+float : left,right
+
+position : absolute, fixed, relative, static.
+
+UPDATE Plus de balise <b> <strong> <i> <s> dans l'html
+
+elles sont remplacées par : font-weigth : bold; font-style:italic; text-decoration: underline;
+z-index : position des éléments (plus le z-index est élevé plus l'élément est à l'avant)
+
+Structure Scss
+scss {
+	container { background:blue;
+		ul{ color:red;
+			li{
+			font-size:10px;}
+		}
+	}
+}
+
+hover - > propriété qui change au survol de la souris
+
+::after -> pseudo-élément qui sera le premier enfant de l'élément sélectionné.
+
+::before -> pseudo-élément qui sera le dernier enfant de l'élément sélectionné.
+
+scroll : overflow:auto; (ou non s'il faut le retirer)
+
+display:none -> fait disparaitre une div
+
+media queries :
+tablet : 768 px
+desktop : 1024px
+mobile : 360px
+
+faire des breakpoints pour les mediaqueries (ds un fichier css à part) :
+$breakpoints: (
+    xs: 576px,
+    sm: 768px,
+    md: 1024px,
+    lg: 1200px
+);
+
+@keyframes pour animer !
+
+favicon : <link rel="icon" type="image/png" href="logo.png" />
